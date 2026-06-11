@@ -1,9 +1,24 @@
-# Modelo de dados
-.listas
-.dicionario com certas/erradas
-.lista de dicionários em pontuacoes.json
+# Planificação
 
-Exemplo 1
+## Grupo
+
+> Catarina
+
+> ElLomba
+
+> Infiltrado
+
+---
+
+## Modelo de Dados
+
+- listas
+- dicionario com certas/erradas
+- lista de dicionários em pontuacoes.json
+
+### Exemplo 1
+
+```json
 pergunta = [
    
     {
@@ -18,9 +33,13 @@ pergunta = [
         "Resposta correta" : 3,
         "Categoria" : "Biologia"
 ]
+```
 
-#2) Entradas / Processamento / Saídas
-    Entrada
+---
+
+## Entradas / Processamento / Saídas
+    
+### Entrada
 .Ficheiro de perguntas
 .Escolha do utilizar no menu
 .Mostrar categorias
@@ -52,3 +71,4 @@ pergunta = [
 .calcular_pontução
 .mostrar_pontuação
 .mostar resultado final
+
