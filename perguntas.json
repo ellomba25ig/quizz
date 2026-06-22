@@ -1,0 +1,212 @@
+[
+  {
+    "Pergunta": "Quem escreveu Os Lusíadas?",
+    "Opções": ["Gil Vicente", "Caetano da Costa", "Luís de Camões", "Alda do Espírito Santo"],
+    "Resposta correta": 2,
+    "Categoria": "Literatura",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é o maior órgão do corpo humano?",
+    "Opções": ["Coração", "Pulmão", "Cérebro", "Pele"],
+    "Resposta correta": 3,
+    "Categoria": "Biologia",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é a capital de Portugal?",
+    "Opções": ["Porto", "Lisboa", "Braga", "Coimbra"],
+    "Resposta correta": 1,
+    "Categoria": "Geografia",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Quantos continentes existem na Terra?",
+    "Opções": ["5", "6", "7", "8"],
+    "Resposta correta": 2,
+    "Categoria": "Geografia",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Quem pintou a Mona Lisa?",
+    "Opções": ["Michelangelo", "Leonardo da Vinci", "Picasso", "Van Gogh"],
+    "Resposta correta": 1,
+    "Categoria": "Arte",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é o planeta mais próximo do Sol?",
+    "Opções": ["Vénus", "Terra", "Marte", "Mercúrio"],
+    "Resposta correta": 3,
+    "Categoria": "Astronomia",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Quanto é 7 x 8?",
+    "Opções": ["54", "56", "58", "64"],
+    "Resposta correta": 1,
+    "Categoria": "Matemática",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é o símbolo químico da água?",
+    "Opções": ["O2", "CO2", "H2O", "NaCl"],
+    "Resposta correta": 2,
+    "Categoria": "Química",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Quem descobriu o Brasil segundo a história tradicional?",
+    "Opções": ["Vasco da Gama", "Pedro Álvares Cabral", "Cristóvão Colombo", "Fernão de Magalhães"],
+    "Resposta correta": 1,
+    "Categoria": "História",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é o animal conhecido como Rei da Selva?",
+    "Opções": ["Tigre", "Elefante", "Leão", "Leopardo"],
+    "Resposta correta": 2,
+    "Categoria": "Animais",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é a língua oficial do Brasil?",
+    "Opções": ["Espanhol", "Inglês", "Francês", "Português"],
+    "Resposta correta": 3,
+    "Categoria": "Línguas",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Quantos dias tem um ano bissexto?",
+    "Opções": ["364", "365", "366", "367"],
+    "Resposta correta": 2,
+    "Categoria": "Calendário",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é o maior oceano do mundo?",
+    "Opções": ["Atlântico", "Índico", "Ártico", "Pacífico"],
+    "Resposta correta": 3,
+    "Categoria": "Geografia",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é a montanha mais alta do mundo?",
+    "Opções": ["Everest", "Kilimanjaro", "Alpes", "Aconcágua"],
+    "Resposta correta": 0,
+    "Categoria": "Geografia",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Quem foi o primeiro homem a pisar na Lua?",
+    "Opções": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"],
+    "Resposta correta": 1,
+    "Categoria": "História",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é a fórmula química do sal de cozinha?",
+    "Opções": ["H2O", "CO2", "NaCl", "O2"],
+    "Resposta correta": 2,
+    "Categoria": "Química",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é o resultado de 15 + 27?",
+    "Opções": ["40", "41", "42", "43"],
+    "Resposta correta": 2,
+    "Categoria": "Matemática",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é a estrela no centro do Sistema Solar?",
+    "Opções": ["Lua", "Marte", "Sol", "Júpiter"],
+    "Resposta correta": 2,
+    "Categoria": "Astronomia",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Em que continente fica Angola?",
+    "Opções": ["Ásia", "Europa", "África", "América"],
+    "Resposta correta": 2,
+    "Categoria": "Geografia",
+    "Dificuldade": "Fácil"
+  },
+  {
+    "Pergunta": "Qual é o gás que as plantas absorvem durante a fotossíntese?",
+    "Opções": ["Oxigénio", "Nitrogénio", "Hidrogénio", "Dióxido de carbono"],
+    "Resposta correta": 3,
+    "Categoria": "Biologia",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é o rio mais longo do mundo segundo a maioria das medições atuais?",
+    "Opções": ["Nilo", "Amazonas", "Yangtzé", "Mississípi"],
+    "Resposta correta": 1,
+    "Categoria": "Geografia",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é o elemento químico representado pelo símbolo Fe?",
+    "Opções": ["Flúor", "Ferro", "Fósforo", "Francium"],
+    "Resposta correta": 1,
+    "Categoria": "Química",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Quem escreveu a obra Dom Quixote?",
+    "Opções": ["Miguel de Cervantes", "Fernando Pessoa", "José Saramago", "Eça de Queirós"],
+    "Resposta correta": 0,
+    "Categoria": "Literatura",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é o maior planeta do Sistema Solar?",
+    "Opções": ["Saturno", "Terra", "Júpiter", "Neptuno"],
+    "Resposta correta": 2,
+    "Categoria": "Astronomia",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Em que ano terminou a Segunda Guerra Mundial?",
+    "Opções": ["1943", "1945", "1947", "1950"],
+    "Resposta correta": 1,
+    "Categoria": "História",
+    "Dificuldade": "Médio"
+  },
+  {
+    "Pergunta": "Qual é a velocidade aproximada da luz no vácuo?",
+    "Opções": ["300 000 km/s", "150 000 km/s", "500 000 km/s", "75 000 km/s"],
+    "Resposta correta": 0,
+    "Categoria": "Física",
+    "Dificuldade": "Difícil"
+  },
+  {
+    "Pergunta": "Qual foi o nome da primeira missão tripulada a pousar na Lua?",
+    "Opções": ["Apollo 10", "Apollo 11", "Gemini 7", "Mercury 3"],
+    "Resposta correta": 1,
+    "Categoria": "História",
+    "Dificuldade": "Difícil"
+  },
+  {
+    "Pergunta": "Qual é o país com a maior área territorial do mundo?",
+    "Opções": ["Canadá", "China", "Estados Unidos", "Rússia"],
+    "Resposta correta": 3,
+    "Categoria": "Geografia",
+    "Dificuldade": "Difícil"
+  },
+  {
+    "Pergunta": "Quem formulou as três leis do movimento?",
+    "Opções": ["Galileu Galilei", "Albert Einstein", "Isaac Newton", "Johannes Kepler"],
+    "Resposta correta": 2,
+    "Categoria": "Física",
+    "Dificuldade": "Difícil"
+  },
+  {
+    "Pergunta": "Qual é o maior osso do corpo humano?",
+    "Opções": ["Tíbia", "Fémur", "Úmero", "Rádio"],
+    "Resposta correta": 1,
+    "Categoria": "Biologia",
+    "Dificuldade": "Difícil"
+  }
+]
