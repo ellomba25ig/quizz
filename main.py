@@ -43,6 +43,14 @@ def verificar_resposta(pergunta, resposta_user):
         print("Ohh... :( Assim fico triste... Erraste...")
         return False
 
+def mostar_resultado_final(pontuacao_total, perguntas_acertadas):
+    print("=========== Resultado final ===========")
+    print(f"Pontuação total:{pontuacao_total}")
+    print(f"Número de perguntas acertadas:{perguntas_acertadas}")
+
+
+
+
 
 def main():
     perguntas = []
@@ -53,12 +61,14 @@ def main():
         pontos = 0
         if op == 1:
             pontuacao_total = 0
+            perguntas_acertadas = 0
             perguntas = carrega_perguntas()
             perguntas_escolhidas = seleciona_perguntas(perguntas)
             for pergunta in perguntas_escolhidas:
                 resposta_user = mostrar_pergunta(pergunta)               
                 verificacao = verificar_resposta(pergunta, resposta_user)
                 if verificacao:
+                    perguntas_acertadas = perguntas_acertadas + 1
                     if pergunta["Dificuldade"] == "Fácil":
                         pontos = 5
                     elif pergunta["Dificuldade"] == "Médio":
@@ -69,6 +79,8 @@ def main():
                     print(f"Pontos até agora: {pontuacao_total}")
                 else:
                     print("Erraste")
+
+            mostar_resultado_final(pontuacao_total, perguntas_acertadas)
 
         elif op == 2:
             print("Adeus bebé! Foi um gosto! Para a próxima traz chocolates!")
