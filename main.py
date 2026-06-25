@@ -69,6 +69,7 @@ def escolher_dificuldade():
 # Objetivo: Verificar a resposta escolhida pelo utilizador
 # Recebe:
 # - A resposta do utilizador
+# - A pergunta do utilizador
 # Devolve:
 # - True se a resposta estiver certa
 # - False se a resposta estiver errada
@@ -83,12 +84,13 @@ def verificar_resposta(pergunta, resposta_user):
 # Objetivo: Mostrar resultado final jogo
 # Recebe:
 # - A pontução total do utilizador
+# - As perguntas acertadas
 def mostar_resultado_final(pontuacao_total, perguntas_acertadas):
     print("=========== Resultado final ===========")
     print(f"Pontuação total:{pontuacao_total}")
     print(f"Número de perguntas acertadas:{perguntas_acertadas}")
 
-# Objetivo: Controlar o programa todo
+# Objetivo: Controlar o programa
 def main():
     perguntas = []
     tempo_permitido = 10
