@@ -1,7 +1,7 @@
 import time 
 import json
 import random
-
+# Objectivo: Mostrar regras do jogo ao utilizador
 def regras():
     print("1) São feitas 5 perguntas")
     print("2) As perguntas têm dificuldades diferentes. Quanto mais dificil, mais pontos.")
@@ -19,13 +19,19 @@ def seleciona_perguntas(perguntas):
     perguntas_escolhidas = []
     perguntas_escolhidas = random.sample(perguntas, 5)
     return perguntas_escolhidas
-    
+# Objetivo: Carregar 5 perguntas aleatórias
+# Devolve:
+# - Listas com perguntas carregadas
 def carrega_perguntas():
     perguntas_temp = []
     with open("perguntas.json", "r", encoding="utf-8") as f:
         perguntas_temp = json.load(f)
     return perguntas_temp
-
+# Objetivo: Mostrar uma pergunta ao utlizador
+# Recebe:
+# - Uma pergunta
+# Devolve:
+# - A opção do utilizador
 def mostrar_pergunta(pergunta):
     i = 0
     print("=========== Pergunta ===========")
@@ -37,8 +43,9 @@ def mostrar_pergunta(pergunta):
         i = i + 1
     op = int(input("== Qual a tua resposta? "))
     return op
-
-
+# Objetivo: Mostrar o menu ao utilizador
+# Devolve:
+# - A opção escolhida pelo utilizador
 def mostrar_menu():
     print("=========== Jogo das Perguntas ===========")
     print("== 1) Jogar")
@@ -46,7 +53,9 @@ def mostrar_menu():
     print("== 3) Sair")
     op = int(input("Qual a tua opção: "))
     return op
-
+# Objetivo: Escolher o nivel de dificuldade
+# Devolve: 
+# - Devolve a dificuldade escolhida pelo utilizador
 def escolher_dificuldade():
     print("=========== Escolhe a dificuldade ===========")
     print("== 1) Fácil")
@@ -55,8 +64,14 @@ def escolher_dificuldade():
     print("== 4) Aleatório")
     print("== 5) Voltar")
     op = int(input("Qual a tua opção: "))
-    return op
 
+    return op
+# Objetivo: Verificar a resposta escolhida pelo utilizador
+# Recebe:
+# - A resposta do utilizador
+# Devolve:
+# - True se a resposta estiver certa
+# - False se a resposta estiver errada
 def verificar_resposta(pergunta, resposta_user):
     if pergunta["Resposta correta"]==resposta_user:
         print("Boa acertaste! És lindo!!")
@@ -64,12 +79,16 @@ def verificar_resposta(pergunta, resposta_user):
     else:
         print("Ohh... :( Assim fico triste... Erraste...")
         return False
-
+    
+# Objetivo: Mostrar resultado final jogo
+# Recebe:
+# - A pontução total do utilizador
 def mostar_resultado_final(pontuacao_total, perguntas_acertadas):
     print("=========== Resultado final ===========")
     print(f"Pontuação total:{pontuacao_total}")
     print(f"Número de perguntas acertadas:{perguntas_acertadas}")
 
+# Objetivo: Controlar o programa todo
 def main():
     perguntas = []
     tempo_permitido = 10
